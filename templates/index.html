@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <div class="content">
+        <button id="myButton">Click Me!</button>
+        <p id="response"></p>
+    </div>
+        
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
