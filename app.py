@@ -8,7 +8,8 @@ def home():
 
 @app.route('/get_data')
 def get_data():
-    return jsonify({'message': 'Hello, this is data from the server!'})
+    
+    return jsonify({'message': 'Ooooo interactivity'})
 
 if __name__ == '__main__':
     app.run(debug=True)
