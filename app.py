@@ -6,7 +6,11 @@ DEV = True
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    
+    with open('./content/lorem.txt', 'r') as file:
+        content = file.read()
+
+    return render_template('index.html', content=content)
 
 @app.route('/get_data')
 def get_data():
