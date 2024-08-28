@@ -85,6 +85,9 @@ button {
     width: 98%;
 }
 
+.section_heading{
+    margin: 15px;
+}
 .content {
     margin: 15px;
 }
