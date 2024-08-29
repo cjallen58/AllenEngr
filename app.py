@@ -8,9 +8,11 @@ DEV = True
 def home():
     
     with open('./content/intro.txt', 'r') as file:
-        content = file.read()
+        intro = file.read()
 
-    return render_template('index.html', intro=content)
+    with open('./content/lorem.txt', 'r') as file:
+        lorem = file.read()
+    return render_template('index.html', intro=intro, lorem=lorem)
 
 @app.route('/get_data')
 def get_data():

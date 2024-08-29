@@ -10,22 +10,29 @@
 <body>
     <div class="heading_div">
         <h1>Cody J Allen</h1>
-        <p>cody.allenengr@gmail.com</p>
+        <p>cody.allenengr@gmail.com | <a href="https://github.com/cjallen58">github.com/cjallen58</a></p>
     </div>
     <nav id="main_nav_bar" class="main_nav_bar">
         <ul class="main_nav_list">
+            <li><a>Education</a></li>
             <li><a>Experience</a></li>
             <li><a>Projects</a></li>
             <li><a>Resources</a></li>
-            <li><a>Contact</a></li>
-            <li><a>Extras</a></li>
+            <li><a>Contact</a></li> <!--make a pop up div that displays a business card when this is clicked-->
+
         </ul>
     </nav>
     <div class="main_body">
         <h2 class="section_heading">Welcome to my website!</h2>
-        <p id="about" class="content">
-            {{intro}}
-        </p>
+        <p id="intro" class="content">{{intro}}</p>
+        <h2 class="section_heading">Education</h2>
+        <p id="education" class="content">{{lorem}}</p>
+        <h2 class="section_heading">Experience</h2>
+        <p id="experience" class="content">{{lorem}}</p>
+        <h2 class="section_heading">Projects</h2>
+        <p id="projects" class="content">{{lorem}}</p>
+        <h2 class="section_heading">Resources</h2>
+        <p id="Resources" class="content">{{lorem}}</p>
     </div>
     <div class="footer">
         <button id="myButton">Click Me!</button>
