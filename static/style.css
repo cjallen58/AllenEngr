@@ -14,8 +14,8 @@ button {
     font-size: 1em;
 }
 
-.content_wrapper{
-    width: 80%;
+.wrapper{
+    width: 70%;
 }
 
 .heading_div{
@@ -104,6 +104,11 @@ button {
 }
 
 .content {
+    margin: 15px 30px;
+    font-size: 1em;
+}
+
+.content p {
     margin: 15px 30px;
     font-size: 1em;
 }
