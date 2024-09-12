@@ -98,7 +98,7 @@ button {
 }
 
 .courses{
-    margin: 25px;
+    margin: 10px 25px;
 }
 
 .courses_div{
@@ -107,9 +107,19 @@ button {
     align-items: flex-start;
     height: 100px;
 }
+
 .courses_list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     height: 100%;
+    width: 100%;
 }
+
+.courses_list li {
+    width: 75px;
+}
+
 .experience_heading{
     margin: 25px;
     font-size: 1.25em;
